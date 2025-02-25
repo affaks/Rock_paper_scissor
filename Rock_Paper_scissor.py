@@ -10,7 +10,7 @@ def clear():
 # waardes/keuzes in spel 
 speler_win = 0
 computer_win = 0
-choices = ["rock", "paper", "scissors"]
+choices = ("rock", "paper", "scissors")
 
 # dit kijkt of win aantal naar 3 gaat
 while speler_win < 3 and computer_win < 3:
